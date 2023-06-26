@@ -1,0 +1,106 @@
+.introduction{
+    display: flex;
+  flex-direction: column;
+}
+
+.introduction__container{
+    padding:3.75rem 5.3% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introduction__video{
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 2.25rem;
+}
+
+.introduction__subtitle{
+    margin-bottom: 3.125rem;
+    max-width: 500px;
+}
+
+.introduction__icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 3.125rem;
+}
+
+.introduction__card{
+    padding: 1.25rem;
+    box-shadow: 0px 14px 24px rgba(184, 184, 184, 0.1);
+    max-width: 600px;
+}
+
+.introduction__card-img{
+    width: 100%;
+    height: 40vh;
+    background-color: #DADADA;
+    margin-bottom: 2rem;
+    background-image: url("../../../assets/images/restaurant-about.jpeg");
+    background-size: cover;
+}
+
+.introduction__card-pretitle{
+    margin-bottom: 1.625rem;
+}
+
+.introduction__card-title{
+    font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 49px;
+letter-spacing: -1.05px;
+
+    margin-bottom: 1.625rem;
+}
+
+.introduction__card-paragraph{
+    margin-bottom: 1rem;
+}
+
+.svg__plane {
+rect{
+    fill: hotpink;
+}}
+
+@media (min-width: 1000px) {
+    .introduction__container{
+        padding-top: 120px;
+    }
+    .introduction__video{
+        width: 80%;
+        max-width: 1170px;
+        height: auto;
+        margin-bottom: 65px;
+    }
+    .introduction__subtitle{
+        max-width: 1000px;
+        width: 75%;
+    }
+    .introduction__icons{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .introduction__icon{
+        width: 170px;
+        height: 170px;
+    }
+    .introduction__card{
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        max-width: 1170px;
+        padding: 2.5rem;
+        gap: 50px;
+        align-items: center;
+        height: 500px
+    }
+
+   .introduction__card-img{
+    height: 100%;
+   }
+ 
+
+}
