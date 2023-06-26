@@ -1,0 +1,49 @@
+.page-title {
+  padding-top: 70px;
+  background-image: url("../../assets/home/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-title__container {
+  padding-top: 4.688rem;
+  padding-left: 5.3%;
+  padding-right: 5.3%;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: brightness(90%);
+          backdrop-filter: brightness(90%);
+}
+
+.page-title__pretitle {
+  margin-bottom: 1rem;
+  line-height: 15px;
+}
+
+.page-title__title {
+  margin-bottom: 2.9rem;
+}
+
+.page-title__index-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.page-title__index {
+  background-color: #FFFFFF;
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.8rem;
+}
+
+@media (min-width: 1000px) {
+  .page-title__container {
+    padding-left: 18%;
+    padding-top: 160px;
+  }
+}/*# sourceMappingURL=page-title.css.map */

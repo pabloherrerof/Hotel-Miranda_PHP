@@ -1,0 +1,53 @@
+.intro-video {
+  background: #222222;
+  padding-right: 5.3%;
+}
+
+.intro-video__container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  padding-left: 5.3%;
+  justify-content: center;
+}
+
+.intro-video__pretitle {
+  margin-bottom: 2rem;
+}
+
+.intro-video__title {
+  margin-bottom: 1rem;
+}
+
+.intro-video__paragraph {
+  max-width: 485px;
+  margin-bottom: 2rem;
+}
+
+.intro-video__video {
+  align-self: center;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 2.25rem;
+}
+
+@media (min-width: 1000px) {
+  .intro-video {
+    background-color: #ae9d82;
+    padding-right: 40%;
+    height: 100vh;
+  }
+  .intro-video__container {
+    background: #222222;
+    padding-right: 20%;
+    padding-left: 18%;
+    height: 100vh;
+  }
+  .intro-video__video {
+    position: absolute;
+    left: 50%;
+    width: 45%;
+    max-width: 800px;
+  }
+}/*# sourceMappingURL=video.css.map */

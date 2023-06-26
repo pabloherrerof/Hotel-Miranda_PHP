@@ -1,0 +1,29 @@
+@import "./header/header.css";
+@import "./text/text.css";
+@import "./home/intro/intro.css";
+@import "./button/button.css";
+@import "./home/about-us/about-us.css";
+@import "./home/rooms/rooms.css";
+@import "./room-card/room-card.css";
+@import "./home/video/video.css";
+@import "./home/core-features/core-features.css";
+@import "./home/menu/menu.css";
+@import "./home/achievements/achievements.css";
+@import "./footer/footer.css";
+@import "./page-title/page-title.css";
+@import "./about-us/introduction/introduction.css";
+@import "./about-us/fun-facts/fun-facts.css";
+@import "./rooms/rooms.css";
+@import "./offers/offers.css";
+@import "./contact/contact.css";
+@import "./room-detail/room-detail.css";
+@import "./swiper/swiper.css";
+html, * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 320px;
+}/*# sourceMappingURL=styles.css.map */

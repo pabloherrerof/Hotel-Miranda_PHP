@@ -1,0 +1,54 @@
+.rooms{
+    height: 100%;
+}
+.rooms__container{
+    padding-left: 5.3%;
+    padding-right: 5.3%;
+    padding-top: 3rem;
+    padding-bottom: 3.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.rooms__slide{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.swiper-bullets--rooms{
+    font-family: "Roboto";
+font-size: 14px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0px;
+text-align: center;
+background-color: transparent;
+padding: 5px 5px;
+width: 25px;
+height: 25px;
+border-radius: 0;
+color: #222222;
+
+&:hover{
+    scale: 1.1;
+    cursor:pointer;
+}
+
+}
+.rooms__slider-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+
+
+

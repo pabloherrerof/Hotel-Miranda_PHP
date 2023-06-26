@@ -1,0 +1,136 @@
+.contact-cards {
+  padding-top: 1.5rem;
+}
+
+.contact-cards__container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  padding-bottom: 4.25rem;
+}
+
+.contact-cards__item {
+  position: relative;
+  padding-top: 3.2rem;
+  padding-bottom: 3.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1.75rem;
+  width: 100%;
+  max-width: 370px;
+  max-height: 189px;
+}
+
+.contact-cards__title {
+  margin-bottom: 1.2rem;
+}
+
+.contact-cards__bg {
+  position: absolute;
+  z-index: -1;
+  top: 30px;
+  right: 40px;
+}
+
+.contact-form {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-bottom: 3.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form__img {
+  background: #d4d4d4;
+  width: 100%;
+  height: 40vh;
+  min-height: 200px;
+  max-width: 500px;
+  margin-bottom: 3.75rem;
+}
+
+.contact-form__form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 470px;
+  align-items: center;
+}
+
+.contact-form__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.contact-form__input-container {
+  background: #F8F8F8;
+  display: flex;
+  flex-direction: row;
+  padding: 1.5rem 1.25rem;
+  gap: 1rem;
+}
+
+.contact-form__input {
+  background: #F8F8F8;
+  border: none;
+  width: 100%;
+}
+
+.contact-form__message {
+  margin-bottom: 2.25rem;
+  background: #F8F8F8;
+  width: 100%;
+  height: 175px;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.contact-form__input--msg {
+  width: 100%;
+  padding-bottom: 30%;
+  border: none;
+  display: flex;
+}
+
+@media (min-width: 1000px) {
+  .contact-form {
+    padding-bottom: 140px;
+  }
+  .contact-cards {
+    padding-top: 4.5rem;
+  }
+  .contact-cards__container {
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 0rem;
+    padding-bottom: 2rem;
+  }
+  .contact-form__img {
+    margin-bottom: 110px;
+  }
+  .contact-form__form {
+    max-width: 970px;
+  }
+  .contact-form__inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .contact-form__input--msg {
+    padding-bottom: 10%;
+  }
+}/*# sourceMappingURL=contact.css.map */
