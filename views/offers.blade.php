@@ -140,7 +140,7 @@
               </li>
             </ul>
           </div>
-          <a href = 'room-detail.php?id={{$room['id']}}'><button class="button button--book button--golden offers__button">BOOK NOW</button></a>
+          <a href = 'room-detail/{{$room['id']}}'><button class="button button--book button--golden offers__button">BOOK NOW</button></a>
         </div>
       </div>
       @endforeach

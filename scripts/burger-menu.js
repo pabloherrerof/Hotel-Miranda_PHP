@@ -16,7 +16,7 @@ burger.addEventListener('click', function () {
 
 
 navLogo.addEventListener('click', function (){
-    window.location.href = "../controllers/index.php"
+    window.location.href = "/index"
 })
 
 

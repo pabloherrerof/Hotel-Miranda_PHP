@@ -13,16 +13,16 @@
 
     <div class="nav__list text__nav-items">
       <li class="nav__item">
-        <a class="nav__link" href="../controllers/about.php">About us</a>
+        <a class="nav__link" href="/about">About us</a>
       </li>
       <li class="nav__item">
-        <a class="nav__link" href="../controllers/rooms.php">Rooms</a>
+        <a class="nav__link" href="/rooms">Rooms</a>
       </li>
       <li class="nav__item">
-        <a class="nav__link" href="../controllers/offers.php">Offers</a>
+        <a class="nav__link" href="/offers">Offers</a>
       </li>
       <li class="nav__item">
-        <a class="nav__link" href="../controllers/contact.php">Contact</a>
+        <a class="nav__link" href="/contact">Contact</a>
       </li>
     </div>
 
